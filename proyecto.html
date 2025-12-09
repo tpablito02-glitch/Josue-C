@@ -1,0 +1,135 @@
+-<HTML>
+<HEAD>
+<TITLE>Página Gym - Proyecto Final</TITLE>
+<style>
+    body {
+        background-image: url("fondo-gym.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: Arial;
+        color: white;
+    }
+
+    h1 {
+        text-align: center;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    .parrafo {
+        width: 80%;
+        margin: auto;
+        background: rgba(0,0,0,0.6);
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+    /* Texto en movimiento */
+    .texto-mov {
+        position: relative;
+        animation: moverTexto 6s infinite alternate;
+        font-size: 22px;
+        font-weight: bold;
+        color: yellow;
+        text-align: center;
+    }
+
+    @keyframes moverTexto {
+        0% { left: 0px; }
+        100% { left: 200px; }
+    }
+
+    /* Imagen en movimiento */
+    .imagen-mov {
+        width: 200px;
+        position: relative;
+        animation: moverImagen 5s infinite alternate;
+        display: block;
+        margin: auto;
+    }
+
+    @keyframes moverImagen {
+        0% { left: 0px; }
+        100% { left: 150px; }
+    }
+
+    .contenedor {
+        width: 85%;
+        margin: auto;
+    }
+
+    .seccion {
+        margin-top: 40px;
+        padding: 20px;
+        background: rgba(0,0,0,0.5);
+        border-radius: 15px;
+    }
+</style>
+</HEAD>
+
+<BODY>
+
+<h1>💪 Bienvenido a la Página del Gimnasio 💪</h1>
+
+<!-- TEXTO EN MOVIMIENTO -->
+<div class="texto-mov">¡Entrena fuerte, supera tus límites!</div>
+
+<!-- PÁRRAFO 1 -->
+<div class="parrafo">
+<p>
+El gym es un espacio donde cada persona puede trabajar su cuerpo y su mente. A través de ejercicios de fuerza,
+resistencia y movilidad, se puede mejorar la salud física, la postura y la energía diaria. Entrenar de forma
+constante permite ver cambios reales en el cuerpo y también en la autoestima. No importa si eres principiante
+o avanzado, lo importante es mantener la disciplina. El gimnasio es un lugar ideal para liberar estrés y
+encontrar motivación en cada entrenamiento.
+</p>
+</div>
+
+<!-- IMAGEN EN MOVIMIENTO -->
+<img src="gym1.jpg" class="imagen-mov">
+
+<!-- PÁRRAFO 2 -->
+<div class="parrafo">
+<p>
+La hipertrofia muscular es uno de los objetivos principales para quienes entrenan en el gym. Este proceso consiste
+en el crecimiento del músculo a través de estímulos como el levantamiento de pesas. Es fundamental combinar un
+entrenamiento adecuado con una buena alimentación rica en proteínas. El cuerpo cambia cuando se entrena con buena
+técnica, descanso suficiente y una rutina progresiva. Cada persona avanza a su propio ritmo, y lo importante es
+nunca compararse con otros. El progreso constante es la verdadera clave del éxito.
+</p>
+</div>
+
+<!-- VIDEO ENTRE PÁRRAFO 2 Y 3 -->
+<center>
+<video width="400" controls>
+  <source src="video-gym.mp4" type="video/mp4">
+</video>
+</center>
+
+<!-- PÁRRAFO 3 -->
+<div class="parrafo">
+<p>
+Hacer ejercicio de manera regular trae múltiples beneficios para la salud. Mejora la circulación, ayuda al control
+del peso, incrementa la resistencia física y fortalece los músculos. Además, entrenar libera endorfinas, conocidas
+como las hormonas de la felicidad, lo que ayuda a mejorar el estado de ánimo. La actividad física es una excelente
+forma de mantener un estilo de vida saludable. El gym también es un lugar donde se pueden conocer nuevas personas
+y crear hábitos positivos que impactan en la vida diaria.
+</p>
+</div>
+
+
+<!-- MAPS INTEGRADO -->  
+<div class="seccion">
+<h2 align=center>Enlaces recomendados</h2>
+<CENTER>
+<IMG SRC="gym2.gif" USEMAP="#gym">
+</CENTER>
+
+<MAP name="gym">
+<AREA shape="rect" coords="10,20,140,180" ALT="hola" HREF="https://amfitness.com.mx/">
+<AREA shape="rect" coords="150,20,270,180" HREF="https://alphafitness.mx/?gad_source=1&gad_campaignid=14080368900&gbraid=0AAAAABxy5cccXBKt1XRnMqHjK3BbIUgo0&gclid=EAIaIQobChMIssLw7bONkQMV03R_AB3IXycNEAAYAiAAEgJK2vD_BwE">
+</MAP>
+</div>
+
+</BODY>
+</HTML>
